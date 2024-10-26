@@ -60,7 +60,7 @@ The Streamlit dashboard provides interactive control and visualizations:
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/Pouryazv/high-frequency-trading-kalmanfilter.git
-   cd Breadcrumbshigh-frequency-trading-kalmanfilter
+   cd high-frequency-trading-kalmanfilter
    ```
 
 2. **Install Dependencies**:
