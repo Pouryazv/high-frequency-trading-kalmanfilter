@@ -20,7 +20,7 @@ st.sidebar.header("Trading Parameters")
 
 # Trading pair and date settings
 trading_pair = st.sidebar.text_input("Trading Pair", os.getenv("TRADING_PAIR", "BTCUSDT"))
-interval = st.sidebar.selectbox("Interval", ["1m", "5m", "15m", "1h", "1d"], index=0)
+interval = st.sidebar.selectbox("Interval", ["1s","1m","3m", "5m", "15m"], index=0)
 start_date = st.sidebar.text_input("Start Date (YYYY-MM-DDTHH:MM:SS)", os.getenv("START_DATE", "2024-10-01T00:00:00"))
 end_date = st.sidebar.text_input("End Date (YYYY-MM-DDTHH:MM:SS)", os.getenv("END_DATE", "2024-11-01T00:00:00"))
 
